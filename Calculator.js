@@ -8,6 +8,8 @@ keys.forEach(function(key) {
 function handle(e) {
     var value = e.target.getAttribute('data-value');
 
+    // rohit
+
     if(value === 'AC'){
         display.value = ''
     }
